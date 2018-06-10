@@ -1,6 +1,12 @@
-git clone http://github.com/wovo/bmptk
-git clone http://github.com/wovo/hwlib
-git clone http://github.com/wovo/hwcpp
+sudo apt install -y arm-none-eabi-gcc
+sudo apt install -y make
+sudo apt install -y bossa-cli
+sudo apt install -y avrdude:wq
 
-apt install arm-none-eabi-gcc
+git clone http://github.com/wovo/bmptk
+cd bmptk; git pull; cd ..
+git clone http://github.com/wovo/hwlib
+cd hwlib; git pull; cd ..
+git clone http://github.com/wovo/hwcpp
+cd hwcpp; git pull; cd ..
 

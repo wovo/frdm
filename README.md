@@ -1,5 +1,19 @@
 FRDM-KL27Z examples/tests for bmptk, hwlib, hwcpp
 
+Lubuntu use 
+
+On windows:
+- VMWare player 
+- Ubuntu 18.04 LTS - ISO
+
+On Lubuntu command line (Ubuntu icon -> System Tools -> LXTerminal)
+- sudo apt-get update
+- sudo apt install -y git
+- git clone http://github.com/wovo/frdm
+- sudo frdm/lubuntu-init
+
+-----------------------------------------------------------------------------
+
 Ubuntu use:
 - VMWare player
 - Ubuntu 18.04 LTS - ISO
@@ -22,6 +36,8 @@ git clone http://github.com/wovo/bmptk
 git clone http://github.com/wovo/hwlib
 git clone http://github.com/wovo/hwcpp
 git clone http://github.com/wovo/frdm
+
+-----------------------------------------------------------------------------
 
 lubuntu
 sudo apt-get install -y git
