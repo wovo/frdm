@@ -1,0 +1,6 @@
+git clone http://github.com/wovo/bmptk
+git clone http://github.com/wovo/hwlib
+git clone http://github.com/wovo/hwcpp
+
+apt install arm-none-eabi-gcc
+

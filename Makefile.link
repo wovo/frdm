@@ -8,7 +8,7 @@
 # 
 #############################################################################
 
-# the location of the ti software directory
+# the location of the ti-software directory
 TI-SOFTWARE       := C:/ti-software
 
 # add Catch
