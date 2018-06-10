@@ -1,7 +1,9 @@
 sudo apt install -y arm-none-eabi-gcc
 sudo apt install -y make
 sudo apt install -y bossa-cli
-sudo apt install -y avrdude:wq
+sudo apt install -y avrdude
+sudo apt install -y gcc-avr
+sudo apt install -y avr-libc
 
 git clone http://github.com/wovo/bmptk
 cd bmptk; git pull; cd ..
